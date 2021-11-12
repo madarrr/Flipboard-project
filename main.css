@@ -1,0 +1,86 @@
+
+*{
+    margin: 0px; 
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.95); }
+.menuGeneral{
+  height: 60px;
+}
+.styletrait{
+    width: 100%;
+    color: #f4f4f4; 
+
+}
+.logoMenu{
+    float: left;/* sticking logo to right */      
+}
+.logoDiv{
+    margin: 25px;
+}
+.menuBar{
+padding-top:15px ;
+margin-right: 85px;
+float: right;
+
+}
+
+.dropLine{
+    float: right;
+     text-decoration: none;
+     font-family: 'Oswald',sans-serif;
+}
+.droite{
+ margin: 20px;
+  text-decoration: none;
+  font-family: 'Oswald',sans-serif;
+}
+.menuBar a:hover{
+    text-decoration: underline;
+}
+#redim{
+    font-size: 10px;
+    text-decoration: none;
+    padding-top: 5px;
+    margin-left: 3px;
+}
+.deroulent{
+    position: relheight
+    display: inline-block;
+    float: right;
+    padding-top: 27px;
+    margin-right: 30px;
+   
+}
+.sousMenuContenu{
+    display: none;
+    position:absolute ;
+    border-radius: 5px;
+    min-width: 175px;
+    background-color: #ffffff;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+     font-family: 'Oswald',sans-serif;
+
+}
+.deroulent a{
+    color: black;
+    text-indent: 15px;
+    text-decoration: none;
+    display: block;
+    text-align: justify;
+    padding: 6px;
+    margin: 3px;
+    display:block;
+
+}
+.sousMenuContenu a:hover {
+background-color: #f4f4f4;
+text-decoration: none ;
+}
+.show{
+    display: block;
+}
+.droit{
+    
+}
