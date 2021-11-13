@@ -48,7 +48,7 @@ float: right;
     margin-left: 3px;
 }
 .deroulent{
-    position: relheight;
+    
     display: inline-block;
     float: right;
     padding-top: 27px;
@@ -133,7 +133,15 @@ text-decoration: none ;
 }
 #imgGaucheSlide1{
     text-align: center; /*locate right and center computer pic*/
-    padding-top: -10px;
+    padding-top: 10px;
+}
+#imgGaucheSlide3{
+    text-align: center; /*locate right and center computer pic*/
+    padding-top: 10px;
+}
+#imgGaucheSlide2{
+    text-align: center; /*locate right and center computer pic*/
+    padding-top: 10px;
 }
 .partTextSlide1{
    text-align: justify-all;
@@ -159,14 +167,12 @@ text-decoration: none ;
 }
 /*compte a rebour*/
 .countDown{
-  text-align: center center;
+  text-align: center ;
   box-shadow: 0 0 10px rgb(96 134 181 / 30%);
   width: 85%;
   margin-left:102.5px;
   padding-top: 10px;
   height: 225px;
-
-
   
 }
 .box{
@@ -198,8 +204,8 @@ text-decoration: none ;
 }
 .boxe{
     padding-top: 115px;
-    margin-left:400px; 
-      word-spacing: 55px;
+    margin-left:25px; 
+      word-spacing: 50px;
 
 }
 
@@ -251,13 +257,11 @@ text-decoration: none ;
     padding-top: 15px;
     font-size: 15px;
 }
-.smallLogoOnly{
-    display: ;
-}
 .styletraitbas{
     width: 100%;
-    color: #f4f4f4; 
-    
+    color: #f4f4f4;     
 }
 .mySlides{
-height: 250px;}
+height: 250px;
+}  
+}
