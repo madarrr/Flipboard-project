@@ -1,0 +1,267 @@
+
+*{  
+    margin: 0px; 
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.95); 
+    box-sizing:border-box;
+
+     font-family: 'Oswald',sans-serif;
+}
+.menuGeneral{
+  height: 50px;
+}
+.styletrait{
+    width: 100%;
+    color: #f4f4f4; 
+
+}
+.logoMenu{
+    float: left;/* sticking logo to right */      
+}
+.logoDiv{
+    margin-left: 100px;
+    padding-top: 15px;
+}
+.menuBar{
+padding-top:5px ;
+margin-right: 85px;
+float: right;
+
+}
+.dropLine{
+    float: right;
+     text-decoration: none;
+     font-family: 'Oswald',sans-serif;
+}
+.droite{
+ margin: 20px;
+  text-decoration: none;
+  font-family: 'Oswald',sans-serif;
+}
+.menuBar a:hover{
+    text-decoration: underline;
+}
+#redim{
+    font-size: 10px;
+    text-decoration: none;
+    padding-top: 5px;
+    margin-left: 3px;
+}
+.deroulent{
+    
+    display: inline-block;
+    float: right;
+    padding-top: 27px;
+    margin-right: 30px;
+    color: rgba(0,0,0,0.5);
+   
+}
+.sousMenuContenu{
+    display: none;
+    position:absolute ;
+    border-radius: 5px;
+    min-width: 150px;
+    background-color: #ffffff;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+.deroulent a{
+    color: black;
+    text-indent: 15px;
+    text-decoration: none;
+    display: block;
+    text-align: justify;
+    padding: 6px;
+    margin: 3px;
+    display:block;
+
+}
+.sousMenuContenu a:hover {
+background-color: #f4f4f4;
+text-decoration: none ;
+}
+.show{
+    display: block;
+}
+
+/* Slideshow container */
+.slideshow-container {
+ height: 500px;
+ overflow: hidden;
+ 
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+ cursor: pointer;
+ top: 50%;
+ width: auto;
+ margin-top: -22px;
+ padding: 16px;
+ color: white;
+ font-weight: bold;
+ font-size: 18px;
+ transition: 0.6s ease;
+ border-radius: 0 3px 3px 0;
+ user-select: none;
+}
+.next {
+ right: 0;
+ border-radius: 3px 0 0 3px;
+}
+
+.dot {
+ cursor: pointer;
+ height: 15px;
+ width: 15px;
+ margin: 0 2px;
+ background-color: #bbb;
+ border-radius: 50%;
+ display: inline-block;
+ transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+ background-color: #717171;
+}
+#imgGaucheSlide1{
+    text-align: center; /*locate right and center computer pic*/
+    padding-top: 10px;
+}
+#imgGaucheSlide3{
+    text-align: center; /*locate right and center computer pic*/
+    padding-top: 10px;
+}
+#imgGaucheSlide2{
+    text-align: center; /*locate right and center computer pic*/
+    padding-top: 10px;
+}
+.partTextSlide1{
+   text-align: justify-all;
+    margin: 50px;
+    padding-top: 40px;
+}
+.smallLogoOnly{
+    padding-top: 5px;
+}
+.textGriserSlide3{
+    margin: 6px;
+     color: rgba(0,0,0,0.5);
+  }
+.controle{
+   
+    text-align: center;   
+    
+  }
+.styletraitbas{
+    width: 100%;
+    color: #f4f4f4; 
+    
+}
+/*compte a rebour*/
+.countDown{
+  text-align: center ;
+  box-shadow: 0 0 10px rgb(96 134 181 / 30%);
+  width: 85%;
+  margin-left:102.5px;
+  padding-top: 10px;
+  height: 225px;
+  
+}
+.box{
+    width: 100px;   
+    height: 100px;
+    line-height: 100px;
+    background-color: #333;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #8a6d3b;
+    float: left;
+    margin:5px;
+
+}
+.textLast{
+    text-align: center;
+}
+.boxInline{
+    margin-left:355px;
+
+
+}
+.boxLine{
+   float: left ;
+   padding-top: 120px; 
+       
+}
+.boxe{
+    padding-top: 115px;
+    margin-left:25px; 
+      word-spacing: 50px;
+
+}
+
+@media only screen and (max-width: 600px){
+    /*redim compte a rebours*/
+.countDown{
+  box-shadow: 0 0 10px rgb(96 134 181 / 30%);
+  width:90%;
+  margin-left:5%;
+  padding-top: 10px;
+  height: 150px; 
+  text-align: center;
+}
+.box{
+    width: 50px;   
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #8a6d3b;
+    margin: 2%;
+
+}
+.textLast{
+    text-align: center;
+}
+.boxInline{
+    display: inherit;
+   margin-left:20%;  
+}
+.boxLine{
+    text-align: center;
+    float: left;
+       
+}
+.boxe{
+   display: none;
+
+}
+/*redim menu*/
+.menuBar{
+    display: none;
+}
+.partTextSlide1{
+   text-align: justify-all;
+    margin: 50px;
+    padding-top: 15px;
+    font-size: 15px;
+}
+.styletraitbas{
+    width: 100%;
+    color: #f4f4f4;     
+}
+.mySlides{
+height: 250px;
+}  
+}

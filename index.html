@@ -5,11 +5,180 @@
 	
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="main.css">
-		<script type="text/javascript" src="script.js"></script>
+		<script  src="script.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<title>PROJET 3</title>
-
 	</head>   
-<body>
-	
-</body>
+<body> 
+ <header>
+ 		<div class="menuGeneral">
+	            <div class="logoDiv">
+	            	<a href="#" class="logoMenu"><img src="img/logo.png" width="40" alt="logo"></a>
+	            </div>
+	  	       <div class="menuBar">    
+					            <a href="#" class="droite">Obtenir l'app</a>
+					            <a href="#" class="droite">Tutoriels</a>
+					            <a href="#" class="droite">Magazines</a>
+					            <a href="#" class="droite">Outils web</a>
+					            <a href="#" class="droite">Support</a>
+					            <a href="#" class="droite">Carriere</a>
+					            <a href="#" class="dropLine" onclick="myFunction()" id="redim">▼</a>
+					            <a href="#" class="dropLine" onclick="myFunction()">Plus</a>
+					           
+	  	       	   <div class="deroulent">
+	  	       	    	 <div class="sousMenuContenu" id="menuDeroulent">
+				            	<a href="#" >Communaute</a>
+				                <a href="#" >Notre blog</a>
+				            	<a href="#" >Cartes</a>
+				            	<a href="#" >Blog en Anglais</a>
+				            	<a href="#" >Annonceurs</a>
+				            	<a href="#" >Auteurs</a>
+				            	<a href="#" >A propos</a>
+	  	       	       </div>
+	  	       	   </div>
+	  	       </div>
+	  	  	 </div>   
+	<hr class="styletrait">
+ </header>
+
+<div class="slideshow-container">
+  <div class="mySlides ">
+    <div class="row">
+            <div class="col-lg-5">
+                  <div class="partTextSlide1">
+                    <h2 class="grandTextSlide2">Flipboard est votre magazine personnel</h2>
+                     <p>
+                     C'est un lieu unique pour découvrir, collecter et partager les nouvelles qui vous intéressent. 
+                     Ajoutez vos réseaux sociaux, vos publications et vos blogs favoris pour rester en contact avec 
+                     les sujets et les personnes les plus proches de vous.
+                     </p>
+                     <img src="img/ios.png" width="144" height="42" alt="ios">
+                     <img src="img/android.png" width="144" height="42" alt="android">
+                     <img src="img/windows1.png" alt="windows1">
+                     <p class="smallLogoOnly"><img src="img/blackberry.png" alt="blackberry" width="144" height="42"></p>
+                  </div>
+            </div>
+             <div class="col-lg-7" id="imgGaucheSlide1"><img src="img/home.png" width="540" alt="home" ></div>
+      </div>
+   </div>
+ <div class="mySlides">
+<div class="row">
+            <div class="col-lg-5" style="height:450px">
+                  <div class="partTextSlide1">
+                    <h2 class="GrandtextSlide2">Profitez des magazines Flipboard </h2>     
+                     <p>
+                    Des millions de personnes utilisent Flipboard pour lire et collecter les informations qui les intéressent, en conservant leurs histoires préférées dans leurs propres magazines sur n'importe quel sujet imaginable. Maintenant, les magazines créés par nos lecteurs, de Dali à End Trafficking, peuvent être partagés et appréciés sur le Web par n'importe qui, n'importe où.
+                     </p>
+                     <img src="img/ios.png" width="144" height="42" alt="ios">
+                     <img src="img/android.png" width="144" height="42" alt="android">
+                     <img src="img/windows1.png" alt="windows1">
+                     <p class="smallLogoOnly"><img src="img/blackberry.png" alt="blackberry" width="144" height="42"></p>  
+                  </div>
+            </div>
+             <div class="col-lg-7" id="imgGaucheSlide2"><img src="img/magazines.png" alt="magazines" ></div>
+      </div>
+  </div>
+
+  <div class="mySlides">
+    <div class="row">
+                <div class="col-lg-5">
+                  <div class="partTextSlide1">
+                    <h1>Badges &amp; Widgets</h1>
+                     <p>
+                    Des millions de personnes utilisent Flipboard
+                    pour lire et collecter les nouvelles qui leur tiennent à cœur,
+                    en conservant leurs histoires préférées dans leurs propres magazines. 
+                    Maintenant, vous pouvez promouvoir ceux que vous créez ou pensez sont géniaux.
+                     </p>
+                     <img src="img/ios.png" width="144" alt="ios" height="42">
+                     <img src="img/android.png" width="144" alt="android" height="42">
+                     <img src="img/windows1.png"  alt="windows1">
+                     <p class="smallLogoOnly"><img src="img/blackberry.png" width="144" alt="blackberry" height="42"></p>
+                  </div>
+            </div>
+                <div class="col-lg-7" id="imgGaucheSlide3"><img src="img/img2.png" alt="img2" width="540"></div>
+      </div>
+  </div>
+    <hr class="styletraitbas">
+</div>
+
+<div  class="controle">
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<div class="countDown">
+	  <h2 class="textLast">Countdown to 2021</h2>
+       <div class="boxInline">
+        
+            <div class="box" id="day"></div> 	
+			         
+            <div class="box" id="hour"></div>
+			      
+		        <div class="box" id="min"></div>
+			       
+			      <div class="box" id="sec"></div>  
+               
+      </div>
+  <p class="boxe">Days  Hours  Minutes Seconds</p>
+ </div>            
+   <script> 
+    //script
+    var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+ showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+ showSlides(slideIndex = n);
+}
+
+function showSlides(n) {  
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+ }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" active", "");
+  }
+ slides[slideIndex-1].style.display = "block";
+ dots[slideIndex-1].className += " active";
+}
+</script>
+<script>
+// Script compte a rebour
+var countDownDate = new Date("dec 25, 2021 15:37:25").getTime();
+var x = setInterval(function() {
+var now = new Date().getTime();
+ var distance = countDownDate - now;
+ var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+ var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+ var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+ var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+ document.getElementById("day").innerHTML = days ;
+ document.getElementById("hour").innerHTML = hours ;
+ document.getElementById("min").innerHTML = minutes ;
+ document.getElementById("sec").innerHTML = seconds ;
+ if (distance < 0) {
+  clearInterval(x);
+  document.getElementById("demo").innerHTML = "EXPIRED";
+ }
+}, 1000);
+     </script>
+     </body>
 </html>
+
+
+
+
+
